@@ -1,0 +1,463 @@
+body {
+  background-color: black;
+}
+
+.left-photo {
+  width: 700px;
+  height: 915px;
+  position: relative;
+  top: 40px;
+  background-repeat: no-repeat;
+}
+
+.content-div {
+  width: auto;
+  height: 900px;
+  margin-bottom: 0px;
+}
+
+.apply-now {
+  position: relative;
+  top: -840px;
+  right: -800px;
+  width: 500px;
+  height: 110px;
+  color: blue;
+}
+
+.apply-now span {
+  color: white;
+  font-size: 80px;
+  font-family: Josefin Sans;
+  font-weight: 400px;
+  white-space: nowrap;
+}
+.apply-now .line-6 {
+  position: relative;
+  width: 480px;
+  height: 2px;
+  border: 1px white solid;
+}
+
+.apply-form.name-box {
+  position: relative;
+
+  width: 600px;
+  height: 100px;
+  right: -800px;
+  top: -820px;
+}
+
+.name-box span {
+  color: white;
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 36px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  margin-right: 13px;
+}
+
+.name-box input {
+  width: 450px;
+  height: 45px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: Josefin Sans;
+}
+
+.phone-box {
+  position: relative;
+  top: 35px;
+}
+
+.apply-form.phone-box {
+  width: 600px;
+  height: 100px;
+}
+
+.phone-box span {
+  color: white;
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 36px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  margin-right: 10px;
+}
+.phone-box input {
+  width: 450px;
+  height: 45px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: jost;
+}
+
+.email-box {
+  position: relative;
+  bottom: -70px;
+}
+
+.apply-form.email-box {
+  width: 600px;
+  height: 100px;
+}
+
+.email-box span {
+  color: white;
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 36px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  margin-right: 12px;
+  font-family: Josefin Sans;
+}
+
+.email-box input {
+  width: 450px;
+  height: 45px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: jost;
+}
+
+.ig-box {
+  position: relative;
+  bottom: -105px;
+}
+
+.apply-form.ig-box {
+  position: relative;
+  border: 1px white solid;
+  width: 600px;
+  height: 100px;
+  right: -800px;
+  top: -820px;
+}
+
+.ig-box span {
+  color: white;
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 36px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  margin-right: 45px;
+}
+
+.ig-box input {
+  width: 450px;
+  height: 45px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: jost;
+}
+
+.tarea-box {
+  top: 130px;
+  position: relative;
+  right: -5px;
+}
+
+.apply-form.tarea-box {
+  border: 1px white solid;
+  width: 500px;
+  height: 270px;
+}
+
+.tarea-box span {
+  color: white;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 700px;
+  line-height: 36px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.tarea-box textarea {
+  margin-top: 20px;
+  width: 560px;
+  height: 230px;
+  border-radius: 20px;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  line-height: 27px;
+  font-style: normal;
+  padding: 15px;
+}
+
+.sub-cel-box {
+  position: relative;
+  right: -250px;
+  bottom: -160px;
+  height: 100px;
+  width: 200px;
+}
+
+.cel {
+  position: relative;
+  right: 12px;
+  bottom: -6px;
+
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border-color: white;
+  background-color: 0.17171F;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: black;
+
+  font-family: Josefin Sans;
+  font-size: 20px;
+}
+
+.sub {
+  position: relative;
+  right: 110px;
+  bottom: -5px;
+
+  width: 100px;
+  height: 50px;
+
+  border-color: white;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 10px;
+
+  font-family: Josefin Sans;
+  font-size: 20px;
+}
+
+.apply-form.sub-cel-box {
+  position: relative;
+  border: 1px white solid;
+  width: 100px;
+  height: 100px;
+  right: -1370px;
+  top: -850px;
+}
+
+.apply-form {
+  position: relative;
+  width: 700px;
+  height: 700px;
+
+  top: -860px;
+  right: -800px;
+}
+
+@media only screen and (max-width: 600px) {
+  .apply-now {
+    position: relative;
+    top: -840px;
+    right: -15px;
+    width: 30px;
+    height: 110px;
+    color: white;
+  }
+  .apply-now span {
+    color: white;
+    font-size: 55px;
+    font-family: Josefin Sans;
+    font-weight: 400px;
+    white-space: nowrap;
+  }
+
+  .apply-now .line-6 {
+    position: relative;
+    width: 330px;
+    height: 2px;
+    border: 1px white solid;
+  }
+
+  .apply-form {
+    position: relative;
+    width: 35px;
+    height: 600px;
+    top: -850px;
+    right: -20px;
+  }
+
+  .name-box span {
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+    top: -35px;
+    left: -8px;
+  }
+
+  .name-box input {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Josefin Sans;
+    position: relative;
+    left: -4px;
+    top: -35px;
+  }
+
+  .phone-box span {
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+    top: -35px;
+    left: -5px;
+  }
+  .phone-box input {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Josefin Sans;
+    position: relative;
+    left: -4px;
+    top: -35px;
+  }
+
+  .email-box {
+    bottom: -85px;
+  }
+
+  .email-box span {
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+    top: -50px;
+    left: -5px;
+  }
+
+  .email-box input {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    position: relative;
+    left: -4px;
+    top: -50px;
+  }
+
+  .ig-box span {
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+    top: -45px;
+    left: 8px;
+  }
+
+  .ig-box {
+    bottom: -90px;
+    left: -10px;
+  }
+
+  .ig-box input {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Josefin Sans;
+    position: relative;
+    left: 5px;
+    top: -50px;
+  }
+
+  .tarea-box {
+    top: 122px;
+    position: relative;
+    left: -4px;
+    top: 45px;
+  }
+
+  .tarea-box span {
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    margin-right: 10px;
+    white-space: nowrap;
+    position: relative;
+    left: -4px;
+    top: 13px;
+  }
+
+  .tarea-box textarea {
+    margin-top: 20px;
+    width: 340px;
+    height: 230px;
+    border-radius: 20px;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    line-height: 27px;
+    font-style: normal;
+    padding: 15px;
+  }
+  .sub-cel-box {
+    position: relative;
+    right: -84px;
+    bottom: -40px;
+    height: 100px;
+    width: 200px;
+  }
+
+  .sub {
+    bottom: -5px;
+    right: 45px;
+  }
+
+  .cel {
+    left: 15px;
+  }
+
+  .left-photo {
+    width: 370px;
+    height: 915px;
+    position: relative;
+    top: 40px;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+  }
+}

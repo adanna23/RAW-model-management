@@ -1,0 +1,80 @@
+* {
+  margin-top: 0px;
+
+  padding: 0;
+}
+.edith-container {
+  position: relative;
+}
+
+.edith-content {
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+  top: 8rem;
+  /* display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 10vh;
+  align-items: center; */
+}
+.edith-content h1 {
+  font-size: 5rem;
+  /* margin: 10 2rem; */
+  color: white;
+  align-items: center;
+  margin-bottom: 1rem;
+  /* margin-top: calc(90px + 50px); */
+}
+
+.edith-content div a > svg {
+  margin-bottom: 1rem;
+}
+
+.edith-content p {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.Main-container {
+  /* position: relative; */
+  display: grid;
+  /* justify-content: center; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.2rem;
+  /* grid-template-rows: 400px; */
+  /* height: 50px; */
+  column-gap: 2rem;
+  /* grid-row-gap: 5px; */
+  /* width: 100%;
+ margin: 5rem auto; */
+  /* margin: auto; */
+  /* margin-left: 20px;
+ height: 75%; */
+  /* bottom: -150px; */
+}
+
+@media screen and (max-width: 700px) {
+  .Main-container {
+    grid-template-columns: auto;
+    row-gap: 2rem;
+  }
+}
+
+img {
+  position: inherit;
+  height: 20rem;
+  width: 20rem;
+  object-fit: contain;
+}
+
+.Main-container .ig {
+  position: relative;
+  display: grid;
+  margin: 50%;
+}

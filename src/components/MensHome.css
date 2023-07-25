@@ -1,0 +1,144 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.placement-container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.placement-container-1 .content-1 {
+  text-align: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 10vh;
+  align-items: center;
+}
+
+.placement-container-1 .content-1 h1 {
+  font-size: 5rem;
+  /* margin: 10 2rem; */
+  color: white;
+  align-items: center;
+}
+
+.placement-container-1 .content-1 .line {
+  /* margin-top: -11rem; */
+  height: 7rem;
+  width: 100px;
+  margin-top: 20px;
+}
+.placement-container-1 p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.App-head-1 {
+  width: 85%;
+  margin: 40rem auto;
+  height: 400px;
+  position: absolute;
+}
+
+.slide-1 img {
+  width: 25rem;
+  height: 35rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.hover::after {
+  content: "name";
+}
+
+.slide-1 {
+  transform: scale(0.6);
+  transition: transform 600ms;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.activeSlide-1 {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow-1 {
+  /* background-color: #fff; */
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow-1 svg {
+  transition: color 300ms;
+}
+
+.arrow-1 svg:hover {
+  color: #68edff;
+}
+
+.next-1 {
+  right: 0%;
+  top: 50%;
+  color: white;
+}
+
+.prev-1 {
+  left: 0%;
+  top: 50%;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .App-head-1 {
+    width: 90%;
+  }
+  .slide-1 img {
+    width: 30rem;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .App-head-1 {
+    width: 90%;
+  }
+  .slide-1 img {
+    width: 30rem;
+  }
+  /* .placement-container, */
+  .content-1,
+  .line-1,
+  .h1 {
+    width: 90rem;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .App-head-1 {
+    width: 90%;
+  }
+  .slide-1 img {
+    width: 10rem;
+  }
+  /* .placement-container, */
+  .content-1,
+  .line-1,
+  .h1 {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .placement-container-1 .App-head-1 p {
+    margin-top: -6rem;
+    font-size: 1.2rem;
+  }
+}
