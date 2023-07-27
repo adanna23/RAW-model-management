@@ -43,6 +43,10 @@
   color: white;
 }
 
+.placement-container .App-head p {
+  margin-top: -5rem;
+}
+
 .App-head {
   width: 85%;
   margin: 40rem auto;
@@ -54,7 +58,7 @@
   width: 25rem;
   height: 35rem;
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   object-fit: contain;
 }
 
@@ -140,7 +144,14 @@
 }
 @media screen and (max-width: 400px) {
   .placement-container .App-head p {
-    margin-top: -6rem;
+    margin-top: 0rem;
     font-size: 1.2rem;
+  }
+  .slide img {
+    height: 20rem;
+    margin-bottom: 0rem;
+  }
+  .slick-slider {
+    padding-top: 4rem;
   }
 }

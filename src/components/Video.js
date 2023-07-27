@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./VideoStyles.css";
-import RMM from "../assets/rmm.png";
 import AnimatedPage from "../AnimatedPage";
 
 import HomeVideo from "../assets/landing.mp4";
@@ -10,7 +9,7 @@ const Video = () => {
   return (
     <AnimatedPage>
       <div className="hero">
-        <video autoPlay loop muted id="video">
+        <video playsInline autoPlay loop muted id="video" control={false}>
           <source src={HomeVideo} type="video/mp4" />
         </video>
         <div className="content">

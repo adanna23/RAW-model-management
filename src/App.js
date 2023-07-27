@@ -19,32 +19,36 @@ import ContactUs from "./routes/ContactUs";
 import { AnimatePresence } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { BrowserRouter } from "react-router-dom";
+
 // import { Routes, Route, useLocation } from "react-router-dom";
 
 function App() {
   // const location = useLocation();
   return (
     <>
-      <AnimatePresence mode="wait">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/landing" element={<Landing />} />
-          <Route path="/WomanHome" element={<WomanHome />} />
-          <Route path="/MenHome" element={<MenHome />} />
-          <Route path="/WhoWeAre" element={<WhoWeAre />} />
-          <Route path="/SikiruAyomide" element={<SikiruAyomide />} />
-          <Route path="/OpeyemiKolawole" element={<OpeyemiKolawole />} />
-          <Route path="/JacobJoseph" element={<JacobJoseph />} />
-          <Route path="/ContactUs" element={<ContactUs />} />
-          <Route path="/JoinUs" element={<JoinUs />} />
-          <Route path="/EdithA" element={<EdithA />} />
-          <Route path="/EzeAdaMary" element={<EzeAdaMary />} />
-          <Route path="/ObiakwalaChidalu" element={<ObiakwalaChidalu />} />
-          <Route path="/OkonkwoChidinma" element={<OkonkwoChidinma />} />
-          <Route path="/OnonyeJanelle" element={<OnonyeJanelle />} />
-          <Route path="/UzuJane" element={<UzuJane />} />
-        </Routes>
-      </AnimatePresence>
+      <BrowserRouter>
+        <AnimatePresence mode="wait">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/landing" element={<Landing />} />
+            <Route path="/WomanHome" element={<WomanHome />} />
+            <Route path="/MenHome" element={<MenHome />} />
+            <Route path="/WhoWeAre" element={<WhoWeAre />} />
+            <Route path="/SikiruAyomide" element={<SikiruAyomide />} />
+            <Route path="/OpeyemiKolawole" element={<OpeyemiKolawole />} />
+            <Route path="/JacobJoseph" element={<JacobJoseph />} />
+            <Route path="/ContactUs" element={<ContactUs />} />
+            <Route path="/JoinUs" element={<JoinUs />} />
+            <Route path="/EdithA" element={<EdithA />} />
+            <Route path="/EzeAdaMary" element={<EzeAdaMary />} />
+            <Route path="/ObiakwalaChidalu" element={<ObiakwalaChidalu />} />
+            <Route path="/OkonkwoChidinma" element={<OkonkwoChidinma />} />
+            <Route path="/OnonyeJanelle" element={<OnonyeJanelle />} />
+            <Route path="/UzuJane" element={<UzuJane />} />
+          </Routes>
+        </AnimatePresence>
+      </BrowserRouter>
     </>
   );
 }

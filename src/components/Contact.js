@@ -109,7 +109,8 @@ const Contact = () => {
                   <FaSearchLocation size={20} style={{ color: "#ffffff" }} />
                 </span>
                 <p>
-                  33 Ayetoro St <br /> Fadeyi bustop Ikorodu Rd, Lagos, Nigeria
+                  No 5 Akinola Adedeji street <br /> Igando bustop Lasu isheri
+                  road Lagos, Nigeria
                 </p>
               </div>
               <div>

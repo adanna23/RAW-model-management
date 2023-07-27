@@ -49,11 +49,15 @@
   position: absolute;
 }
 
+.placement-container-1 .App-head-1 p {
+  margin-top: -3rem;
+}
+
 .slide-1 img {
   width: 25rem;
   height: 35rem;
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   object-fit: contain;
 }
 
@@ -138,7 +142,14 @@
 }
 @media screen and (max-width: 400px) {
   .placement-container-1 .App-head-1 p {
-    margin-top: -6rem;
+    margin-top: 0rem;
     font-size: 1.2rem;
+  }
+  .slide-1 img {
+    height: 20rem;
+    margin-bottom: 0rem;
+  }
+  .slick-slider {
+    padding-top: 4rem;
   }
 }

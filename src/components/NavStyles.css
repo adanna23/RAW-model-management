@@ -68,6 +68,9 @@
   .nav-menu a {
     font-size: 2rem;
   }
+  .nav-menu a svg {
+    margin-right: 0rem !important;
+  }
 }
 /* dropdown */
 

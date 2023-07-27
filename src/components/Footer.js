@@ -22,8 +22,8 @@ const Footer = () => {
               style={{ color: "#ffffff", marginRight: "2rem" }}
             />
             <div>
-              <p>33 Ayetoro St</p>
-              <h4>Fadeyi bustop Ikorodu Rd, Lagos, Nigeria</h4>
+              <p>No 5 Akinola Adedeji street</p>
+              <h4>Igando bustop Lasu isheri road Lagos, Nigeria</h4>
             </div>
           </div>
           <div className="phone">
